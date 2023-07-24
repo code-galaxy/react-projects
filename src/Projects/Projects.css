@@ -1,0 +1,11 @@
+.Sidebar-site {
+   border: 1px solid white;
+   padding: 10px;
+   margin: 5px 0 5px 5px;
+   height: 100vh;
+   border: 5px solid green;
+}
+
+.Sidebar-site {
+   grid-area: s;
+}
