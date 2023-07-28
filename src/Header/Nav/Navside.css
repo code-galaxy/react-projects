@@ -12,11 +12,7 @@
 }
 
 .Navside-container li a:hover {
-   color: red;
-   /* background-color: darkslategray; */ 
-   /* transition: all .10s; */
-   /* border-radius: 10px; */
-   /* border: 1px solid white; */
+   color: lightcoral;
 }
 
 
@@ -41,7 +37,9 @@
    text-align: center;
    /* border: 1px solid white; */
 }
-
+.Navside-logo span{
+font-size: 18px;
+}
 .Navside-menu ul li {
    display: inline-block;
    /* line-height: 50px; */
