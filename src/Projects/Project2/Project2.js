@@ -3,22 +3,10 @@ import './Project2.css';
 
 export default function Project2() {
 
-   const [count, setCount] = React.useState(0);
    // const [comment, setComment] = React.useState([]);
    // let commentRef = createRef();
 
-   let countFuncPlus = () => {
-      let tempCount = count;
-      tempCount++;
-      setCount(tempCount);
-   }
-
-   let countFuncMinus = () => {
-      let tempCount = count;
-      tempCount--;
-      if (tempCount === -99) tempCount = 0;
-      setCount(tempCount);
-   }
+  
 
 
    // let addComment = () => {
@@ -38,16 +26,9 @@ export default function Project2() {
             <h1>Counter</h1>
          </div>
 
-         <div className="Project1-style">
-            <button onClick={countFuncPlus} className="btn-project-plus"> + </button>
-            <div>
-               <span>{count}</span>
-            </div>
-            <button onClick={countFuncMinus} className="btn-project-minus"> - </button>
-         </div>
-         <div className="event-odd">
-            <h4>{count % 2 === 0 ? 'even' : "odd"}</h4>
-         </div>
+         <dir></dir>
+               
+            
          <div className="link-to-code">
             <a href="https://css.in.ua/html/tag/a/target" target="_blanc" >view code</a>
          </div>
