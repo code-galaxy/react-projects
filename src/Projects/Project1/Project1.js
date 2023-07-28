@@ -1,7 +1,7 @@
 import React from "react";
 import './Project1.css';
 
-function Project1() {
+export default function Project1() {
 
    const [count, setCount] = React.useState(0);
 
@@ -39,4 +39,3 @@ function Project1() {
       </>
    )
 }
-export default Project1;
