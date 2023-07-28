@@ -32,10 +32,10 @@ export default function Project2() {
          <div className="link-to-code">
             <a href="https://css.in.ua/html/tag/a/target" target="_blanc" >view code</a>
          </div>
-         {/* <hr />
-         <hr />
+         
+         
 
-         <div>
+         {<div>
             <textarea ref={commentRef}></textarea>
          </div>
          <div>
