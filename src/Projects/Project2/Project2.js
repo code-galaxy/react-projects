@@ -35,7 +35,7 @@ export default function Project2() {
          
          
 
-         {<div>
+         {/* <div>
             <textarea ref={commentRef}></textarea>
          </div>
          <div>
