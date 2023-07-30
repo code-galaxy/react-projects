@@ -2,16 +2,6 @@ import React from "react";
 import "./Project2.css";
 
 export default function Project2() {
-  // const [comment, setComment] = React.useState([]);
-  // let commentRef = createRef();
-  // let addComment = () => {
-  //    let textAreaValue = commentRef.current.value;
-  //    console.log(textAreaValue);
-  //    let newComment = [...comment, textAreaValue];
-  //    setComment(newComment);
-  //    commentRef.current.value = '';
-  // }
-
   const [open, setOpen] = React.useState(false);
 
   return (
@@ -27,7 +17,6 @@ export default function Project2() {
         >
           Open the window
         </button>
-        
         {
             open && (
             <div className="overlay">
@@ -41,28 +30,12 @@ export default function Project2() {
           </div>
           )
          }
-
        </div>
-
       <div className="link-to-code">
-        <a href="https://css.in.ua/html/tag/a/target" target="_blanc">
+        <a href="https://github.com/code-galaxy/react-projects/blob/main/src/Projects/Project2/Project2.js" target="_blanc">
           view code
         </a>
       </div>
-
-      {/* <div>
-            <textarea ref={commentRef}></textarea>
-         </div>
-         <div>
-            <button onClick={addComment}>Add comment</button>
-         </div>
-         <div>
-            <ul>
-               {comment.map((item, index) => 
-                  <li key={index.toString()}>{item}</li>
-               )}
-            </ul>
-         </div> */}
     </>
   );
 }

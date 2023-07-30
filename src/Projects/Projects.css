@@ -52,3 +52,26 @@
    align-content: center;
    width: 550px;
 }
+
+
+.description {
+   text-align: center;
+}
+
+.about-project h1:hover{
+   text-decoration: underline;
+   }
+   
+   .about-project h3{
+       color: gold;
+       margin: 10px 0;
+    }
+   
+     .link-to-code a {
+       color: lightgray;
+    }
+    
+    .link-to-code a:hover {
+       text-decoration: underline;
+    }
+    
