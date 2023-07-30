@@ -17,6 +17,20 @@
    height: 300px;
    padding: 25px;
 }
+.project2-style{
+   
+      display: grid;
+      grid-template-areas:
+         "leftside rightside"
+         "leftside rightside"
+         "leftside rightside";
+      background: #2c2e50;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px 0px gray;
+      margin: 25px 0;
+      height: 500px;
+      padding: 25px;
+}
 
 .about-project {
    grid-area: leftside;
